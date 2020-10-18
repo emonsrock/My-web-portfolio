@@ -1,0 +1,104 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18.5px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Sansita Swashed', cursive;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Laila', serif;
+}
+
+.name-highlight{
+    color:rgb(300, 150, 0);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 1%;
+}
+#emon1{
+    width:35.2%;
+}
+.top-banner{
+    background-image: url("image/top-banner.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow:10px 10px 40px rgb(5, 239, 247);
+    margin: 40px 40px 35px 40px;
+}
+section{
+    height: 500px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, greenyellow,yellow );
+    padding: 10px;
+    border:whitesmoke;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.link-button:hover{
+    background-image:linear-gradient( whitesmoke,whitesmoke);
+    color: yellowgreen;
+    border: lightblue;
+    border-style: solid;
+}
+.mid-banner{
+    background-image: url("image/background1.jpg");
+    background-repeat: no-repeat;
+    box-shadow:10px 10px 40px ;
+    border-radius: 5px;
+    box-shadow:10px 10px 40px mediumaquamarine solid;
+    margin: 40px 10px 10px 10px;
+}
+#emon2{
+    width: 69%;
+    padding-left: 300px;
+}
+#extra-curricular{
+    box-shadow: 10px 10px 40px yellowgreen;
+    border-radius: 5px;
+    height: 85%;
+    width: 45%;
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,orange,orange);
+    border-image-slice: 1;
+}
+#co-curricular{
+    box-shadow: 10px 10px 40px yellowgreen;
+    border-radius: 5px;
+    height: 85%;
+    width: 45%;
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,orange,orange);
+    border-image-slice: 1;
+}
+.last-banner{
+    border-radius: 5px;
+    padding-top: 20px;
+    margin: 40px 10px 10px 10px;
+    box-shadow:10px 10px 40px cadetblue;
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,rgb(196, 238, 8),rgba(7, 161, 207, 0.61));
+    border-image-slice: 1;
+    
+}
+footer p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 400px;
+    
+}
